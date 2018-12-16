@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/lightpink"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You have to sign in before save or view prescription..."/>
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFC0CB"
+        android:layout_marginTop="10dp"
+        android:id="@+id/signIn">
+    </com.google.android.gms.common.SignInButton>
+
+    <EditText
+        android:id="@+id/nameTXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the doctor's name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/emailTXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the doctor's E-mail ID"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/phnTXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the doctor's phone number"
+        android:inputType="phone" />
+
+
+    <EditText
+        android:id="@+id/prscrptnTXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the prescription"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/dateTXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the prescribed date"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/saveBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#FFC0CB"
+        android:text="Save"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/viewtBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:text="View prescription"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
+

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "165937980171",
+    "firebase_url": "https://health-diary-a1785.firebaseio.com",
+    "project_id": "health-diary-a1785",
+    "storage_bucket": "health-diary-a1785.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165937980171:android:3d17c6ec9777c9df",
+        "android_client_info": {
+          "package_name": "com.example.user.healthdiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165937980171-bhb6e90fh1rq5h8p9t843kqig7hch4m9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.healthdiary",
+            "certificate_hash": "629ef2becd787d9f174f5979242284311c9febb6"
+          }
+        },
+        {
+          "client_id": "165937980171-2r8ehr7ud9rhps2m10qmgsek5sf8mehu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtIOeFXYFg_qbeCo-MXdiky03eHCB8KY4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165937980171-2r8ehr7ud9rhps2m10qmgsek5sf8mehu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
